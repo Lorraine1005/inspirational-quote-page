@@ -1,0 +1,62 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cinzel", serif;
+  font-family: "Cinzel Decorative", cursive;
+  text-align: center;
+  background-image: url(img/Background.jpg);
+  background-size: cover;
+}
+main {
+  margin: 0 auto;
+}
+header {
+  padding: 2em;
+  background-color: #23707533;
+}
+h1 {
+  color: #fff;
+}
+.random-quote-box {
+  padding: 2em;
+  max-width: 60em;
+  min-height: 25em;
+  margin: 10em auto;
+  background-color: #a3bfc475;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #a3bfc4;
+  font-family: "Cinzel", serif;
+}
+.generate-quote-btn {
+  padding: 1em 2em;
+  margin-top: 1em;
+  border-radius: 11px;
+
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-family: inherit;
+  border: 1px solid #237075;
+  background-color: #2370753e;
+}
+.generate-quote-btn:hover {
+  border: 1px solid #ab948b;
+  background-color: #ab948b69;
+}
+.quote-display-el {
+  font-size: 1.6rem;
+  color: #237075;
+  justify-self: flex-start;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+}
